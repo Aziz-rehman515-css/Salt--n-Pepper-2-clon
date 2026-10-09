@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root {
+    --red: #ed1c24;
+    --black:#212529;
+    --white:#ffffff;
+
+
+}
+html{
+   font-size: 62.5%;
+}
+/* .navbar{
+
+    background: var(--black);
+    display: flex;
+    justify-content:space-between ;
+    
+    padding: 10px 60px;
+  
+ } */
+  .navbar{
+    background: var(--black);
+    display: flex;
+    align-items: center;
+   padding: 10px 7%;
+   height: 90px;
+    justify-content: space-between;
+    
+  }
+ .logo{
+    width: 165px;
+
+     
+ }
+ .logo img {
+    width: 100%;
+    height: auto;
+    
+    
+ }
+ .link-items a{
+   color: var(--white) ;
+   font-size: 18px;
+   gap: 12px;
+   text-decoration: none;
+   padding: 20px;
+    
+ }
+ .franchise-btn{
+    border-color: var(--white);
+    border-radius: 25px;
+    padding: 15px 15px;
+    background: var(--black);
+    color: var(--white);
+    font-size: 15px;
+ }
+ .order-btn{
+    border-color: var(--red);
+    border-radius: 25px;
+    padding: 8px 8px 8px 8px;
+    background: var(--red);
+    color: var(--white);
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+
+ }
+
+.icon-circle i{
+   width: 18px;
+    height: 15px;
+   display: block;
+
+   
+
+}
+.icon-circle{
+   width: 32px;
+   height: 32px;
+   background: var(--white);
+   color: var(--red);
+   font-size: 14px;
+   border-radius: 50%;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+}
+.menu-icon{
+    color: var(--white);
+    font-size: 3rem;
+    display: none;
+}
+.menu-icon-mobile{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.mobile-navbar{
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+    display: none;
+}
+
+.order-btn-mobile{
+    font-size: 1.2rem;
+}
+
+.logo-mobile-image{
+    width: 100px;
+}
+/* navbar ended */
+
+/* carousel started */
+.carousel-image{
+    width: 100%;
+}
+/* carousel ended */
+
+
+/* welcome container started */
+.welcome-container{
+    margin: 50px 0px;
+}
+.welcome-heading{
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.futurak-font{
+    font-family: Futurak;
+    font-size: 5.2rem;
+
+}
+
+.welcome-para{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px 0px;
+    color: #FFFFFFB3;
+}
+
+.brands-order-btn{
+    background-color: transparent;
+    border: 1px solid #FFFFFFB3;
+    border-radius: 30px;
+    color: #FFFFFFB3;
+    font-size: 1.5rem;
+    padding: 10px 60px;
+}
+.brand-image{
+    background-color: var(--white);
+    border-radius: 5px;
+}
+.brand-children{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.brands-parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 60px 0px;
+    flex-wrap: wrap;
+}
+/* welcome container ended */
+
+
+
+
+/* responsive media queries  */
+
+/* navbar started */
+@media(max-width: 1024px){
+    .menu-icon {
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        margin: 10px  40px;
+        display: none;
+    }
+    .mobile-navbar{
+        display: flex;
+    }
+}
+body{
+   background: var(--black);
+}
